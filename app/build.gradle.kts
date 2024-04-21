@@ -80,6 +80,10 @@ dependencies {
 
     implementation ("androidx.navigation:navigation-compose:2.7.1")
 
+  /*  implementation ("com.mapbox.mapboxsdk:mapbox-android-sdk:6.0.1")
+   implementation ("com.mapbox.mapboxsdk:mapbox-android-navigation:6.0.1")
+    implementation ("com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.5.0")
+*/
 
 
 }
