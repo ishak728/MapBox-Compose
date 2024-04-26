@@ -10,23 +10,21 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
+import com.ishak.mapboxtest.view.Navigation
 import com.ishak.mapboxtest.ui.theme.MapBoxTestTheme
+import dagger.hilt.android.AndroidEntryPoint
 
 
-
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
     private lateinit var locationManager:LocationManager
 
+   // val placeAutocomplete = PlaceAutocomplete.create(mapboxAccessToken)
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-
-
-
-
 
 
 
